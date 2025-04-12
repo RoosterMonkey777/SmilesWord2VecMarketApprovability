@@ -15,3 +15,20 @@ pandas
 scikit-learn
 transformers
 torch
+
+## How to Run
+
+### 1. Clone the Repository
+git clone https://github.com/RoosterMonkey777/SmilesWord2VecforMaketApprovability.git
+cd SmilesWord2VecforMaketApprovability
+
+### 2.Install Dependencies
+pip install pandas scikit-learn gensim transformers torch
+
+### 3. Run Notebooks
+Open your preferred Jupyter environment
+
+Notebook	                          Model	                  Purpose
+Word2Vec_Smiles(CBOW).ipynb	        Word2Vec CBOW	          Train CBOW embeddings on SMILES
+Word2Vec_Smiles(Skip_Gram).ipynb	  Word2Vec Skip-gram	    Train Skip-gram embeddings on SMILES
+ChembertaModel_BioProject.ipynb	    ChemBERTa	              Run and compare ChemBERTa model
