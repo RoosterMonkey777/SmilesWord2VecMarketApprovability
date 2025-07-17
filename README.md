@@ -7,7 +7,7 @@ We experiment with both Word2Vec models (CBOW and Skip-gram) trained on SMILES s
 ## Objective
 - Learn meaningful embeddings from SMILES strings using Word2Vec (CBOW & Skip-gram).
 - Use these embeddings to train a downstream classifier to predict whether a compound is likely to be market-approved.
-- Compare performance of our Word2Vec models against ChemBERTa.
+- Compare performance of our Word2Vec models against ChemBERTa model.
 
 ## Requirements
 Python 3.9+
